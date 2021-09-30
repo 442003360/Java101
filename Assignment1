@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main
+//Mohammad Ali Alayafi
+//442003360
+
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		Scanner s = new Scanner(System.in);System.out.print("Please enter the first number : ");
+        float a = s.nextFloat();
+        System.out.print("please enter the second number : ");
+        float b = s.nextFloat();
+float add = a+b;
+        float sub = a-b;
+	float multiply = a*b;
+        float div = a/b;
+        float mod = a%b;
+System.out.println("addition : " + add);
+        System.out.println("subtraction : " + sub);
+        System.out.println("multiblication : " + multiply);
+        System.out.println("division : " + div);
+
+        System.out.println("a > b : " + (a>b));
+        System.out.println("a >= b : " + (a>=b));
+        System.out.println("a < b : " + (a<b));
+        System.out.println("a <= b : " + (a<=b));
+        System.out.println("a != b : " + (a!=b));
+        System.out.println("a == b : " + (a==b));
+	}
+}
+
+		
