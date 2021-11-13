@@ -4,6 +4,10 @@
 import java.util.Random;
 import java.util.Scanner;
 
+//your grade is 4/5
+
+//fix file name to be Rockpaperse.java ( add file extension .java )
+//fix class name to match file name ( Main should be Rockpaperse )
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
